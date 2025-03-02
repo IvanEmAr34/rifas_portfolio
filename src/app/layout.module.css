@@ -1,0 +1,128 @@
+.navbar {
+    background-color: var(--base-light-color);
+    padding-top: 8px;
+    padding-bottom: 9px;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    border: 10px solid var(--primary-color);
+    border-right: none;
+    border-left: none;
+
+    /* border-color: red; */
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    z-index: 1
+}
+
+.navbar-brand img {
+    max-width: 250px;
+    height: auto;
+    width: 100%;
+    /* margin-left: 15px;
+    width: 80%;
+    max-width: 100px;
+    height: auto;
+    border-radius: var(--border-radious-md);
+    border: 4px solid var(--primary-color); */
+}
+
+.navbar-brand-menu {
+    margin-right: 40px;
+}
+
+.menu-navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-nav:not(.menu-navbar-nav) .nav-item:last-of-type {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.nav-item .nav-link {
+    text-align: right;
+}
+
+.nav-link-number {
+    font-size: 12px;
+    /* color: #e9e9e9; */
+    /* color: var(--tertiary-color); */
+    color: var(--base-dark-color);
+    line-height: 1;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 47px;
+}
+
+.nav-link-menu {
+    font-weight: 800;
+    font-size: 18px;
+    color: #000;
+    line-height: 1;
+}
+
+.nav-link {
+    border-radius: var(--border-radious-md);
+}
+
+.nav-link:hover {
+    /* background: #f4f4f4; */
+    background: var(--base-dark-color);
+    color: var(--secondary-color);
+    border-radius: var(--border-radious-md);
+}
+
+.nav-link:hover .description {
+    color: var(--primary-color);
+}
+
+.nav-link:hover .nav-link-menu {
+    color: var(--secondary-color);
+}
+
+
+.nav-link.primary {
+    background-color: var(--primary-color);
+    transition: all 200ms;
+    color: var(--white-color);
+}
+
+.nav-link.primary:hover {
+    background: var(--primary-light-color);
+    box-shadow: var(--shadow-hover);
+    color: var(--secondary-color) !important;
+}
+
+.nav-link.primary .description {
+    color: var(--primary-light-color);
+}
+
+.nav-link.primary:hover .description,
+.nav-link.primary:active .description {
+    color: var(--secondary-color) !important;
+}
+
+.nav-link:active {
+    background: var(--primary-light-color);
+    box-shadow: var(--shadow-click) !important;
+}
+
+/*
+.nav-link.primary:hover .nav-link-menu {
+    color: var(--white-color) !important;
+} */

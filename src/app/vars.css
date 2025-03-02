@@ -1,0 +1,29 @@
+:root {
+    --base-light-color: #F7F7F7;
+    --base-dark-color: #101F1122;
+    --primary-color: #55a1a9;
+    --secondary-color: #0b535a;
+    --primary-light-color: #a4d5da;
+    --shadow-color: #bdf8fb;
+
+    --black-color: #106161;
+    --white-color: #fff;
+
+
+    --shadow-click: inset 0px 0px 20px #00000014, inset -20px -20px 60px var(--shadow-color);
+    --shadow-hover: 0px 0px 10px var(--shadow-color);
+    --shadow-regular: 0px 0px 2px var(--shadow-color);
+
+    --shadow-card: 0px 0px 40px #d2d2d2, 0px 0px 15px var(--shadow-color), -20px -20px 60px #FFFFFF;
+    --shadow-card-hover: 0px 0px 30px #d2d2d2, 0px 0px 10px var(--shadow-color), -20px -20px 30px #FFFFFF;
+    /* --shadow-hover: 0px 0px 5px #b98bb8, 0px 0px 5px var(--shadow-color); */
+    --border-radious-sm: 8px;
+    --border-radious-md: 12px;
+    --border-radious-lg: 24px;
+
+    --padding-md: 20px;
+    --padding-sm: 10px;
+    --padding-xs: 5px;
+
+    --margin-md: 10px;
+}

@@ -1,0 +1,49 @@
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    /* Width of the scrollbar */
+    height: 12px;
+    /* Height of the scrollbar */
+    transition: all 1s linear;
+}
+::-webkit-scrollbar:hover {
+    width: 15px;
+    /* Width of the scrollbar */
+    /* Height of the scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+    background: var(--primary-light-color);
+    /* Color of the track */
+    border-radius: 2px;
+    /* Rounded corners of the track */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    /* Color of the thumb */
+    border-radius: 2px;
+    /* Rounded corners of the thumb */
+}
+
+/* Style the thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+    /* Color of the thumb on hover */
+}
+
+/* Optional: Style the scrollbar corner */
+::-webkit-scrollbar-corner {
+    background: var(--secondary-color);
+    /* Color of the corner */
+}
+
+/* Optional: Style the scrollbar buttons */
+/* ::-webkit-scrollbar-button { */
+    /* background: #888; */
+    /* Color of the buttons */
+    /* border-radius: 10px; */
+    /* Rounded corners of the buttons */
+/* } */
