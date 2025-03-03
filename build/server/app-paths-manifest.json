@@ -4,6 +4,6 @@
   "/contacto/page": "app/contacto/page.js",
   "/page": "app/page.js",
   "/tickets/page": "app/tickets/page.js",
-  "/[rifa_id]/banner/page": "app/[rifa_id]/banner/page.js",
-  "/[rifa_id]/page": "app/[rifa_id]/page.js"
+  "/[rifa_id]/page": "app/[rifa_id]/page.js",
+  "/[rifa_id]/banner/page": "app/[rifa_id]/banner/page.js"
 }
