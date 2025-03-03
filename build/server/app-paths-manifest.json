@@ -2,8 +2,8 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/contacto/page": "app/contacto/page.js",
-  "/tickets/page": "app/tickets/page.js",
   "/page": "app/page.js",
-  "/[rifa_id]/page": "app/[rifa_id]/page.js",
-  "/[rifa_id]/banner/page": "app/[rifa_id]/banner/page.js"
+  "/tickets/page": "app/tickets/page.js",
+  "/[rifa_id]/banner/page": "app/[rifa_id]/banner/page.js",
+  "/[rifa_id]/page": "app/[rifa_id]/page.js"
 }

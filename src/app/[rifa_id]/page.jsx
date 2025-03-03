@@ -16,4 +16,6 @@ export function generateStaticParams() {
   ];
 }
 
+export const dynamic = 'dynamic force';
+
 export default LandingParent;

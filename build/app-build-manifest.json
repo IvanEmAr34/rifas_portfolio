@@ -27,6 +27,17 @@
       "static/chunks/138-9148f06ec9dcf0f6.js",
       "static/chunks/app/contacto/page-a02d4eb5c2cfb960.js"
     ],
+    "/page": [
+      "static/chunks/webpack-461899f1c8d1461d.js",
+      "static/chunks/fd9d1056-90960e0a7e77703c.js",
+      "static/chunks/23-ff14220b7d7270f6.js",
+      "static/chunks/main-app-7da3ff1303624ee3.js",
+      "static/css/d3df112486f97f47.css",
+      "static/css/8c04984e96826ffb.css",
+      "static/chunks/173-275da2d084d608dd.js",
+      "static/chunks/472-88626057ffc60ccd.js",
+      "static/chunks/app/page-4220f42f548207de.js"
+    ],
     "/tickets/page": [
       "static/chunks/webpack-461899f1c8d1461d.js",
       "static/chunks/fd9d1056-90960e0a7e77703c.js",
@@ -44,16 +55,15 @@
       "static/chunks/509-4b2de6dd9696f30a.js",
       "static/chunks/app/tickets/page-8490d605ced6e50d.js"
     ],
-    "/page": [
+    "/[rifa_id]/banner/page": [
       "static/chunks/webpack-461899f1c8d1461d.js",
       "static/chunks/fd9d1056-90960e0a7e77703c.js",
       "static/chunks/23-ff14220b7d7270f6.js",
       "static/chunks/main-app-7da3ff1303624ee3.js",
-      "static/css/d3df112486f97f47.css",
-      "static/css/8c04984e96826ffb.css",
+      "static/css/f74b2b5a383dbe01.css",
       "static/chunks/173-275da2d084d608dd.js",
-      "static/chunks/472-88626057ffc60ccd.js",
-      "static/chunks/app/page-4220f42f548207de.js"
+      "static/chunks/37-d29df7b70dbd265d.js",
+      "static/chunks/app/[rifa_id]/banner/page-f2499c99c27fd850.js"
     ],
     "/[rifa_id]/page": [
       "static/chunks/webpack-461899f1c8d1461d.js",
@@ -69,17 +79,7 @@
       "static/chunks/472-88626057ffc60ccd.js",
       "static/chunks/138-9148f06ec9dcf0f6.js",
       "static/chunks/762-5df7eed63d2b4c12.js",
-      "static/chunks/app/[rifa_id]/page-de90455c986f21f6.js"
-    ],
-    "/[rifa_id]/banner/page": [
-      "static/chunks/webpack-461899f1c8d1461d.js",
-      "static/chunks/fd9d1056-90960e0a7e77703c.js",
-      "static/chunks/23-ff14220b7d7270f6.js",
-      "static/chunks/main-app-7da3ff1303624ee3.js",
-      "static/css/f74b2b5a383dbe01.css",
-      "static/chunks/173-275da2d084d608dd.js",
-      "static/chunks/37-d29df7b70dbd265d.js",
-      "static/chunks/app/[rifa_id]/banner/page-f2499c99c27fd850.js"
+      "static/chunks/app/[rifa_id]/page-4223aa6118da9e0d.js"
     ]
   }
 }
