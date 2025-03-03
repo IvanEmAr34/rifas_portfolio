@@ -10,8 +10,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Grid } from "@mui/material";
 
+export function generateStaticParams() {
+  return [{ rifa_id: "1" }];
+}
+
 const Banner = (props) => {
-  const { rifaInfo = {awards:{}} } = props;
+  const { rifaInfo = { awards: {} } } = props;
   const { awards } = rifaInfo;
   const awardsOrdered = Object.keys(awards).sort();
 
