@@ -11,7 +11,7 @@ import {
 import { Grid } from "@mui/material";
 
 const Banner = (props) => {
-  const { rifaInfo = {} } = props;
+  const { rifaInfo = {awards:{}} } = props;
   const { awards } = rifaInfo;
   const awardsOrdered = Object.keys(awards).sort();
 

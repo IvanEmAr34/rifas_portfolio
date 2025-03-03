@@ -2,6 +2,7 @@
   "name": "rifas_plus",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ivanemar34.github.io/rifas_portfolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
