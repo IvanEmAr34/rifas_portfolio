@@ -8,12 +8,4 @@ const LandingParent = (props) => {
   );
 };
 
-export function generateStaticParams() {
-  return [
-    {
-      rifa_id: "1",
-    },
-  ];
-}
-
 export default LandingParent;
